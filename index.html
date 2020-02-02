@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>What's the Weather?</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="input-form">
+            <h1>What's the weather right now?</h1>
+            <form id="weather-form">
+                <input type="text" id="location" placeholder="Enter a location!" required />
+                <button class="btn-primary" id="sbmt-btn" type="submit">Fetch!</button>
+            </form>
+        </div>
+        <div id="weather-result">
+            <p>Icon: <span id="icon"></span></p>
+            <p>Location: <span id="location-name"></span></p>
+            <p>Nearest Storm Bearing: <span id="nearest-storm-bearing"></span></p>
+            <p>Nearest Storm Distance: <span id="nearest-storm-distance"></span></p>
+            <p>Summary: <span id="summary"></span></p>
+            <p>Temperature: <span id="temperature"></span></p>
+            <p>Wind Gust: <span id="wind-gust"></span></p>
+            <p>Wind Speed: <span id="wind-speed"></span></p>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

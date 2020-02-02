@@ -1,0 +1,27 @@
+body {
+	background-color: rgb(142, 208, 230);
+	width: 100%;
+	width: 100vw;
+}
+
+main {
+	padding-top: 50px;
+	margin: auto;
+	width: 50%;
+	text-align: center;
+}
+
+#weather-form {
+	display: grid;
+	grid-template-columns: 35% 33%;
+	grid-column-gap: 50px;
+	justify-content: end;
+}
+
+#sbmt-btn {
+	width: 100px;
+}
+
+#weather-result {
+	display: none;
+}
